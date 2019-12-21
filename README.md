@@ -55,7 +55,7 @@ To help process this data, I have created machine learning models capable of cla
 
 ### Support Vector Machine
 
-* With parameter `gamma="auto`, classifier score is 0.797.
+* With parameter `gamma="auto"`, classifier score is 0.797.
 * With hyperparameter tuning using `GridSearchCV`:
 ![SVM with hyperparameter tuning](images/svm_hyper.png)
 classifier score is 0.832 with parameters `C=10` and `gamma = 0.01`.
@@ -63,6 +63,7 @@ classifier score is 0.832 with parameters `C=10` and `gamma = 0.01`.
 ### Random Forest Classifier
 
 * Using `n_estimators = 200`, classifier score is .893.
+![Random Forest](images/rf.png)
 
 ### KNN Classifier
 
